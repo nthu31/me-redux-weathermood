@@ -1,0 +1,74 @@
+.weatherDisplay {
+    padding-top: 5rem;
+    transition: all 0.5s;
+}
+
+.weatherDisplay.maskingOn {
+    opacity: 0;
+}
+
+.weatherDisplay.maskingOff {
+    opacity: 1;
+}
+
+.display-content {
+    width: 20rem;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.display-content.atmosphere {
+    background-image: url('images/w-atmosphere.png');
+}
+
+.display-content.clear {
+    background-image: url('images/w-clear.png');
+}
+
+.display-content.clouds {
+    background-image: url('images/w-clouds.png');
+}
+
+.display-content.drizzle {
+    background-image: url('images/w-drizzle.png');
+}
+
+.display-content.na {
+    background-image: url('images/w-na.png');
+}
+
+.display-content.rain {
+    background-image: url('images/w-rain.png');
+}
+
+.display-content.snow {
+    background-image: url('images/w-snow.png');
+}
+
+.display-content.thunderstorm {
+    background-image: url('images/w-thunderstorm.png');
+}
+
+.temp {
+    color: black;
+    font-size: 4.5rem;
+    font-weight: 300;
+    color: white;
+}
+
+.unit {
+    font-size: 2rem;
+}
+
+.description {
+    position: absolute;
+    top: 1rem;
+    right: 0.2rem;
+    color: #fff;
+    opacity: 0.8;
+}

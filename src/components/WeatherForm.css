@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.inputCity {
+    display: inline-block;
+    width: 13rem;
+}
+
+.inputUnit {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.submit {
+    color: white;
+    margin-left: 4px;
+}
+
+.input-group-append {
+    background-color: white;
+}

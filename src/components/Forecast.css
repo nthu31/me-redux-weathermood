@@ -1,0 +1,52 @@
+.forecast {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.forecast.atmosphere {
+    background-image: url('images/w-atmosphere-bg.jpg');
+}
+
+.forecast.clear {
+    background-image: url('images/w-clear-bg.jpg');
+}
+
+.forecast.clouds {
+    background-image: url('images/w-clouds-bg.jpg');
+}
+
+.forecast.drizzle {
+    background-image: url('images/w-drizzle-bg.jpg');
+}
+
+.forecast.na {
+    background-image: url('images/w-na-bg.jpg');
+}
+
+.forecast.rain {
+    background-image: url('images/w-rain-bg.jpg');
+}
+
+.forecast.snow {
+    background-image: url('images/w-snow-bg.jpg');
+}
+
+.forecast.thunderstorm {
+    background-image: url('images/w-thunderstorm-bg.jpg');
+}
+
+.overlay {
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.overlay.maskingOff {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlay.maskingOn {
+    background-color: rgba(0, 0, 0, 1);
+}
